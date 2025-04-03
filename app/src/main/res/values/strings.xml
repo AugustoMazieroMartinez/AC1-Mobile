@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">AC1</string>
+    <string-array name="categorias">
+        <item name="Ficcao">Ficção</item>
+        <item name="Tecnico">Técnico</item>
+        <item name="Terror">Terror</item>
+        <item name="Misterio">Mistério</item>
+    </string-array>
+    <string name="Salvar">Salvar</string>"
+    <string name="Lido">Lido</string>
+    <string name="Titulo">Título</string>
+    <string name="Autor">Autor</string>
+    <string name="Atualizar">Atualizar</string>
+</resources>
