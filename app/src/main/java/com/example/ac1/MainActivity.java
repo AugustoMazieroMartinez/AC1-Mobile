@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                         cbxLido.setChecked(false);
                         spnCategoria.setSelection(0);
                         carregarLivro();
-                        btnSalvar.setText("@string/Salvar");
+                        btnSalvar.setText(R.string.Salvar);
                     } else {
                         Toast.makeText(this, "Preencha todos os campos!", Toast.LENGTH_SHORT).show();
                     }
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 spnCategoria.setSelection(posicao);
-                btnSalvar.setText("@string/Atualizar");
+                btnSalvar.setText(R.string.Atualizar);
                 btnSalvar.setOnClickListener(v ->
                 {
 
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                             txtAutor.setText("");
                             cbxLido.setChecked(false);
                             spnCategoria.setSelection(0);
-                            btnSalvar.setText("@string/Salvar");
+                            btnSalvar.setText(R.string.Salvar);
                         } else {
                             Toast.makeText(this, "Erro ao atualizar!", Toast.LENGTH_SHORT).show();
                         }
